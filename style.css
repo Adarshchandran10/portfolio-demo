@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Oswald:wght@700&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color:rgb(9, 171, 171);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    display: flex;
+    margin: 30px;
+    text-decoration: none;
+    color: antiquewhite;
+   
+}
+nav ul li a:hover{
+    color: black;
+    text-shadow: 6px 3px 8px white;
+}
+video{
+    width: 100%;
+}
+.overlay{
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    color: aliceblue;
+    text-shadow: 5px 4px 7px cyan;
+}
+span{
+    color: aqua;
+    font-size: xx-large;
+    text-shadow: 2px 3px 4px black;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    
+}
+#home::before{
+    content: "";
+    background-image: url('https://media.gettyimages.com/id/1320686310/photo/businessman-working-from-home-office.jpg?s=612x612&w=0&k=20&c=IW9zU8v1kuErmKwj8DePeWI1Aw8oOhMgYQpzCYq24Rk=');
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    
+}
+.main{
+    position: absolute;
+    border: 2px ridge white;
+    padding: 70px;
+    top: 800px;
+    left: 100px;
+    box-shadow: 4px 5px 6px 7px rgb(10, 39, 39);
+    
+}
+
+/* h3{
+    
+    margin: 10px;
+    margin-top: 100px;
+    
+} */
+/* #aboutpic{
+    border-radius: 800px;
+} */
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(10, 11, 12);
+    text-shadow: 5px 4px 7px rgb(12, 12, 12);
+    text-align: center;
+    font-size: xx-large;
+}
+    
+h2:hover{
+    color:cyan ;
+}
+
+/* .abouts{
+    /* margin-top: 10px; */
+    /* position: absolute;
+    top: 30px;
+    left: 650px; */
+
+.sections{
+    position: relative;
+
+}
+.aboutimg{
+    height:200px;
+    width:200px;
+    border-radius: 30px;
+}
+.imgdiv{
+    width:500px;
+    height:200px;
+}
+.container{
+    display:flex;
+    
+
+}
+.pic{
+    padding: 30px;
+
+    width:300px;
+    height: 200px;
+    
+}
+.intro{
+    width: fit-content;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+.about{
+    margin-top: 25px;
+    height:60px;
+    /* background-color: antiquewhite; */
+    width:100%;
+}
+.projects{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    
+    
+}
+.project-img{
+    width:400px;
+    height:400px;
+}
+.project-img-div{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.row{
+    width: 100%;
+    height: 550px;
+    margin-top: 25px;
+    display: flex;
+}
+.box{
+    width: 400px;
+    height: 500px;
+    margin: 20px;
+    border: 2px ridge black;
+    border-radius: 10px;
+    background: linear-gradient(to top,rgb(8, 189, 221) 50%,white 50%);
+    background-size: 100% 200%;
+    transition: all 0.4s;
+}
+.box:hover{
+    border: none;
+    box-shadow: 3px 4px 6px 7px black;
+    background-position: left bottom;
+}
+.box-img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+.box h4{
+    text-align: center;
+}
+.box p{
+    text-align: justify;
+    margin-top: 10px;
+
+}
+#ser{
+    margin-top: 20px;
+}
+form{
+    width: 500px;
+    margin-left: 480px;
+    margin-top: 50px;
+}
+.input{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    
+}
+button{
+    padding-left: 43%;
+}
+@media screen and (max-width:400px) {
+   
+    nav{
+        width: 100%;
+    }
+   
+}
+
+
+
